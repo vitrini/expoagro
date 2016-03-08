@@ -1,0 +1,424 @@
+
+div#map
+{
+	/* widht and height are defined according the image*/
+	background: url(MAPA_25.jpg);
+	width: 1687px;
+	height: 1036px;
+	background-repeat: no-repeat;
+
+}
+
+/* esses caras s�o utilizados para alinhar */
+.location {
+  text-align: center;
+  color: #4D4D4D;
+  font-size: 9pt;
+}
+
+.location:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.location > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.location {
+	position: absolute;
+	/*cursor: pointer;*/
+	width: 40px;
+	height: 40px;
+	border-style:solid;
+	border-width:0px;
+}
+
+
+.small-font 
+{
+	font-size: 9pt;
+}
+
+.plus_space
+{
+	width: 170px;
+}
+
+
+body
+{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+ 
+
+.vitriniContainer
+{
+	top: 1310px;
+	left: 370px;
+	position:absolute;
+	width: 409px;
+	height: 437px;
+	margin-left: -185px;
+	margin-top: -427px;
+	display: none;
+}
+
+.vitriniBox
+{
+	background: url(tip_bg_ballon.png);
+	height: 313px;
+	width: 409px;
+	z-index:99999;
+	cursor: pointer;
+	
+}
+
+.vitriniBase
+{
+	background: url(tip_bg_base.png);
+	height: 124px;
+	width: 409px;
+	z-index:99999;
+}
+
+
+
+.vitrini_label {
+	position: relative;
+	padding-left: 50px;
+	width: 100px;
+	color: deeppink;
+	font-size: larger;
+	font-variant: small-caps;
+	font-weight: 900;
+}
+
+.vitriniSegmentIcon
+{
+	height: 160px;
+	width: 160px;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-top: 20px;
+	
+}
+
+
+
+	/*acessorios
+	artes_plasticas
+	artesanato_contemporaneo
+	complementos_para_casa
+	design_de_superficies
+	importados
+	infantil
+	joalheria_autoral
+	livros
+	mobiliario
+	objetos
+	papelaria
+	popart
+	sustentabilidade
+	textil*/
+
+
+.vitriniName
+{
+	text-align: center;
+	font-weight: bolder;
+	font-size: x-large;
+	margin-bottom: 10px;
+}
+
+.vitriniSegmentLbl
+{
+	text-align: center;
+	color: #043C51;
+	font-size: large;
+}
+
+ .responsive-image{
+        height:auto;
+        width:100%;
+    }
+
+
+#location_160 {
+	top: 662px;
+	left: 167px;
+}
+#location_158{
+	top: 542px;
+	left: 224px;
+}
+
+#location_151{top:639px;left:274px;}
+
+#location_128 {
+top: 698px;
+left: 423px;
+}	
+
+#location_148 {
+top: 767px;
+left: 317px;
+}
+
+
+
+#location_152{top:658px;left:307px;}
+#location_153{top:679px;left:325px;}
+#location_147
+{top: 685px;
+left: 298px;}
+
+#location_159 {
+top: 401px;
+left: 300px;
+}
+
+#location_135_136 {
+top: 468px;
+left: 284px;
+}
+#location_137{top:522px;left:307px;}
+#location_141 {
+top: 590px;
+left: 343px;
+}
+#location_138{top:574px;left:363px;}
+#location_139{top:602px;left:382px;}
+#location_140 {
+top: 622px;
+left: 402px;
+}
+#location_141 {
+top: 590px;
+left: 343px;
+}
+#location_142 {
+top: 612px;
+left: 362px;
+}
+#location_142A {
+top: 638px;
+left: 388px;
+}
+
+#location_132A {
+top: 448px;
+left: 340px;
+}
+
+#location_132B {
+top: 462px;
+left: 355px;
+}
+#location_131A {
+top: 475px;
+left: 368px;
+}
+#location_131B {
+top: 487px;
+left: 377px;
+}
+#location_123 {
+top: 438px;
+left: 366px;
+}
+#location_124{top:454px;left:382px;}
+#location_125 {
+top: 470px;
+left: 400px;
+}
+#location_130 {
+top: 535px;
+left: 425px;
+}
+#location_129A {
+top: 555px;
+left: 445px;
+}
+#location_129 {
+top: 578px;
+left: 470px;
+}
+#location_127{top:558px;left:484px;}
+#location_126 {
+top: 517px;
+left: 450px;
+}
+
+
+#location_109{top:412px;left:462px;}
+#location_108{top:388px;left:439px;}
+
+
+#location_117A {
+top: 485px;
+left: 523px;
+}
+#location_117{top:473px;left:512px;}
+#location_111{top:495px;left:575px;}
+#location_110{top:462px;left:542px;}
+#location_116{top:510px;left:550px;}
+
+#location_115{top:571px;left:611px;}
+#location_113{top:561px;left:639px;}
+#location_114{top:599px;left:654px;}
+#location_101{top:519px;left:702px;}
+#location_99{top:503px;left:724px;}
+#location_100{top:541px;left:743px;}
+#location_91{top:697px;left:763px;}
+
+#location_104{top:374px;left:556px;}
+#location_J4{top:359px;left:578px;}
+#location_149{top:342px;left:561px;}
+#location_105{top:357px;left:537px;}
+
+#location_103{top:420px;left:596px;}
+#location_102{top:465px;left:647px;}
+#location_98{top:440px;left:657px;}
+#location_102A {
+top: 446px;
+left: 624px;
+}
+
+
+#location_J5{top:317px;left:622px;}
+#location_J3{top:341px;left:689px;}
+#location_J1{top:373px;left:730px;}
+#location_J2 {
+top: 357px;
+left: 710px;
+}
+#location_93A {
+top: 395px;
+left: 751px;
+}
+
+#location_16{top:378px;left:959px;}
+#location_91A{top:640px;left:852px;}
+
+#location_80{top:886px;left:1216px;}
+#location_81{top:858px;left:1184px;}
+#location_82{top:836px;left:1159px;}
+#location_83{top:808px;left:1132px;}
+#location_85{top:785px;left:1106px;}
+#location_86{top:763px;left:1081px;}
+#location_87{top:742px;left:1060px;}
+#location_88{top:720px;left:1034px;}
+#location_89A{top:699px;left:1011px;}
+#location_89{top:674px;left:982px;}
+#location_90{top:643px;left:948px;}
+
+#location_10{top:456px;left:813px;}
+#location_92{top:441px;left:834px;}
+#location_10A{top:427px;left:797px;}
+
+#location_8{top:332px;left:718px;}
+#location_9{top:370px;left:762px;}
+
+#location_67{top:593px;left:1044px;}
+#location_68{top:569px;left:1017px;}
+#location_69A{top:550px;left:997px;}
+#location_69{top:524px;left:966px;}
+#location_72{top:609px;left:1020px;}
+#location_71{top:582px;left:996px;}
+#location_70{top:549px;left:957px;}
+
+#location_144A{top:714px;left:1194px;}
+#location_143B{top:733px;left:1167px;}
+#location_74{top:716px;left:1147px;}
+#location_73{top:683px;left:1108px;}
+#location_65_66{top:684px;left:1154px;}
+
+#location_53{top:495px;left:1061px;}
+#location_52{top:481px;left:1039px;}
+#location_50{top:542px;left:1133px;}
+#location_54{top:557px;left:1115px;}
+#location_51{top:520px;left:1093px;}
+
+#location_32{top:477px;left:1202px;}
+#location_37{top:491px;left:1187px;}
+#location_33A{top:454px;left:1176px;}
+#location_36{top:460px;left:1149px;}
+#location_33{top:433px;left:1151px;}
+#location_34{top:412px;left:1125px;}
+#location_35{top:430px;left:1111px;}
+#location_17{top:402px;left:1226px;}
+
+#location_47A{top:672px;left:1262px;}
+#location_47{top:647px;left:1256px;}
+#location_56{top:654px;left:1227px;}
+#location_48{top:626px;left:1230px;}
+#location_49{top:605px;left:1208px;}
+#location_55{top:619px;left:1187px;}
+#location_77{top:827px;left:1274px;}
+#location_62{top:809px;left:1297px;}
+#location_63{top:785px;left:1265px;}
+#location_76{top:800px;left:1239px;}
+#location_154 {
+top: 930px;
+left: 1282px;
+}
+
+#location_143A{top:901px;left:1309px;}
+#location_144B{top:884px;left:1335px;}
+#location_61{top:864px;left:1362px;}
+#location_60A{top:835px;left:1393px;}
+#location_60{top:809px;left:1429px;}
+#location_24{top:784px;left:1459px;}
+#location_45{top:749px;left:1378px;}
+#location_59{top:763px;left:1356px;}
+#location_46A{top:730px;left:1356px;}
+#location_58A{top:748px;left:1336px;}
+#location_46{top:714px;left:1334px;}
+#location_58{top:727px;left:1313px;}
+
+#location_44A{top:701px;left:1431px;}
+#location_25{top:679px;left:1432px;}
+#location_44{top:680px;left:1407px;}
+#location_43{top:660px;left:1383px;}
+#location_26 {
+top: 651px;
+left: 1397px;
+}
+
+#location_27{top:604px;left:1339px;}
+#location_42{top:613px;left:1325px;}
+#location_28{top:586px;left:1317px;}
+#location_41{top:595px;left:1303px;}
+#location_40{top:579px;left:1284px;}
+#location_29{top:567px;left:1295px;}
+#location_30{top:548px;left:1273px;}
+#location_39{top:562px;left:1262px;}
+#location_38{top:545px;left:1242px;}
+#location_31{top:535px;left:1255px;}
+#location_23{top:560px;left:1370px;}
+#location_22{top:525px;left:1324px;}
+
+#location_15{top:311px;left:891px;}
+#location_14{top:286px;left:934px;}
+#location_2{top:261px;left:969px;}
+#location_1{top:233px;left:1018px;}
+#location_C{top:182px;left:975px;}
+#location_A_B{top:138px;left:919px;}
+#location_D{top:198px;left:870px;}
+
+#location_3{top:219px;left:858px;}
+#location_4{top:231px;left:835px;}
+#location_5{top:249px;left:810px;}
+#location_6{top:263px;left:782px;}
+#location_7{top:278px;left:755px;}
+ 

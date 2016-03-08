@@ -1,0 +1,204 @@
+
+div#map
+{
+	/* widht and height are defined according the image*/
+	background: url(mapa_atual.jpg);
+	width: 1687px;
+	height: 1036px;
+	background-repeat: no-repeat;
+
+}
+
+/* esses caras s�o utilizados para alinhar */
+.location {
+  text-align: center;
+  color: #4D4D4D;
+  font-size: 9pt;
+  cursor: pointer;
+}
+
+.location:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.location > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.location {
+	position: absolute;
+	/*cursor: pointer;*/
+	width: 40px;
+	height: 40px;
+	border-style:solid;
+	border-width:0px;
+}
+
+
+.small-font 
+{
+	font-size: 9pt;
+}
+
+.plus_space
+{
+	width: 170px;
+}
+
+
+body
+{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+ 
+
+.vitriniContainer
+{
+	top: 1310px;
+	left: 370px;
+	position:absolute;
+	width: 286px;
+	height: 310px;
+	margin-left: -125px;
+	margin-top: -296px;
+	display: none;
+}
+
+.vitriniBox
+{
+	background: url(tip_bg_ballon.png);
+	height: 219px;
+	width: 286px;
+	z-index:99999;
+	cursor: pointer;
+	
+}
+
+.vitriniBase
+{
+	background: url(tip_bg_base.png);
+	height: 87px;
+	width: 286px;
+	z-index:99999;
+}
+
+
+
+.vitrini_label {
+	position: relative;
+	padding-left: 50px;
+	width: 100px;
+	color: deeppink;
+	font-size: larger;
+	font-variant: small-caps;
+	font-weight: 900;
+}
+
+.vitriniSegmentIcon
+{
+	height: 111px;
+	width: 111px;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-top: 20px;
+	
+}
+
+
+
+	/*acessorios
+	artes_plasticas
+	artesanato_contemporaneo
+	complementos_para_casa
+	design_de_superficies
+	importados
+	infantil
+	joalheria_autoral
+	livros
+	mobiliario
+	objetos
+	papelaria
+	popart
+	sustentabilidade
+	textil*/
+
+
+.vitriniName
+{
+	text-align: center;
+	font-weight: bolder;
+	font-size: larger;
+	margin-bottom: 10px;
+}
+
+.vitriniSegmentLbl
+{
+	text-align: center;
+	color: #043C51;
+	font-size: large;
+}
+
+ .responsive-image{
+        height:auto;
+        width:100%;
+}
+
+#location_F1{top:611px;left:441px;}
+#location_F2{top:687px;left:485px;}
+#location_A1{top:568px;left:616px;}
+#location_B1{top:1px;left:33px;}
+#location_B1{top:558px;left:638px;}
+
+#location_E1{top:572px;left:538px;}
+#location_CO{top:435px;left:319px;}
+#location_E2{top:429px;left:434px;}
+#location_P1{top:410px;left:479px;}
+#location_A2{top:376px;left:505px;}
+#location_A3{top:350px;left:581px;}
+#location_A4{top:325px;left:644px;}
+
+#location_1{top:473px;left:523px;}
+#location_2{top:461px;left:553px;}
+#location_3{top:447px;left:586px;}
+#location_4{top:415px;left:655px;}
+#location_5{top:403px;left:687px;}
+#location_6{top:388px;left:715px;}
+#location_7{top:368px;left:768px;}
+#location_8{top:352px;left:797px;}
+#location_10{top:0px;left:39px;}
+#location_9{top:340px;left:828px;}
+#location_10{top:318px;left:869px;}
+#location_11{top:306px;left:900px;}
+#location_12{top:291px;left:926px;}
+#location_13{top:274px;left:971px;}
+#location_14{top:259px;left:999px;}
+#location_15{top:246px;left:1025px;}
+
+#location_O1{top:353px;left:378px;}
+#location_O2{top:336px;left:423px;}
+#location_A5{top:232px;left:868px;}
+#location_A6{top:209px;left:917px;}
+#location_A7{top:164px;left:1017px;}
+
+#location_G1{top:546px;left:706px;}
+#location_G2{top:520px;left:765px;}
+#location_G3{top:492px;left:819px;}
+#location_G4{top:467px;left:875px;}
+#location_G5{top:441px;left:925px;}
+#location_G6{top:416px;left:980px;}
+#location_G7{top:391px;left:1030px;}
+#location_G8{top:366px;left:1078px;}
+#location_G9{top:342px;left:1128px;}
+#location_G10{top:319px;left:1174px;}
+ 
+ 

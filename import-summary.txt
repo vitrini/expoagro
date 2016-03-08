@@ -1,0 +1,174 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .idea/
+* .idea/.name
+* .idea/Android.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* ic_vitrini-web.png
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+gson-2.2.2.jar => com.google.code.gson:gson:2.2.2
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.2.jar => version 2.2.2 in com.google.code.gson:gson:2.2.2
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/commons-compress-1.2.jar => app/libs/commons-compress-1.2.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* /home/alessandrogurgel/workspace/ => app/src/main/java/
+* /home/alessandrogurgel/workspace/.metadata/.lock => app/src/main/resources/.metadata/.lock
+* /home/alessandrogurgel/workspace/.metadata/.log => app/src/main/resources/.metadata/.log
+* /home/alessandrogurgel/workspace/.metadata/.mylyn/repositories.xml.zip => app/src/main/resources/.metadata/.mylyn/repositories.xml.zip
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/.indexes/properties.index => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/.indexes/properties.index
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/.location => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/.location
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/.markers => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/.markers
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/org.eclipse.egit.core/GitProjectData.properties => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/org.eclipse.egit.core/GitProjectData.properties
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/org.eclipse.jdt.core/state.dat => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.projects/Vitrini/org.eclipse.jdt.core/state.dat
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/3.tree => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.root/3.tree
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources => app/src/main/resources/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.ws.service.policy.prefs => app/src/main/resources/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.ws.service.policy.prefs
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi => app/src/main/resources/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdt => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdt
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdx => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdx
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fnm => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fnm
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.frq => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.frq
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.nrm => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.nrm
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tii => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tii
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tis => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tis
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments.gen => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments.gen
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments_1 => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments_1
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/write.lock => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/write.lock
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fdt => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fdt
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fdx => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fdx
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fnm => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fnm
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.frq => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.frq
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.nrm => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.nrm
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.prx => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.prx
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.tii => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.tii
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.tis => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.tis
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments_2 => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments_2
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json => app/src/main/resources/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.equinox.p2.ui/dialog_settings.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.equinox.p2.ui/dialog_settings.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/1878551790.index => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/1878551790.index
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/3530330443.index => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/3530330443.index
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/indexNamesMap.txt => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/indexNamesMap.txt
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2016/3/10/refactorings.history => app/src/main/resources/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2016/3/10/refactorings.history
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2016/3/10/refactorings.index => app/src/main/resources/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2016/3/10/refactorings.index
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log => app/src/main/resources/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.6.2.20150902-0002.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.6.2.20150902-0002.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup => app/src/main/resources/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties => app/src/main/resources/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.rse.core/.log => app/src/main/resources/.metadata/.plugins/org.eclipse.rse.core/.log
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.rse.core/initializerMarks/org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark => app/src/main/resources/.metadata/.plugins/org.eclipse.rse.core/initializerMarks/org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.localhost_0/FP.local.files_0/node.properties => app/src/main/resources/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.localhost_0/FP.local.files_0/node.properties
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.localhost_0/H.local_16/node.properties => app/src/main/resources/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.localhost_0/H.local_16/node.properties
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.localhost_0/node.properties => app/src/main/resources/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.localhost_0/node.properties
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.rse.ui/.log => app/src/main/resources/.metadata/.plugins/org.eclipse.rse.ui/.log
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/baseBrowserLibrary.js => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/baseBrowserLibrary.js
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/browserWindow.js => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/browserWindow.js
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/dom5.js => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/dom5.js
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/xhr.js => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/xhr.js
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml
+* /home/alessandrogurgel/workspace/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties => app/src/main/resources/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties
+* /home/alessandrogurgel/workspace/.metadata/version.ini => app/src/main/resources/.metadata/version.ini
+* /home/alessandrogurgel/workspace/RemoteSystemsTempFiles/.project => app/src/main/resources/RemoteSystemsTempFiles/.project
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
