@@ -13,3 +13,12 @@ O aplicativo está disponível no Google Play: https://play.google.com/store/app
 - Uso de abas e fragment views
 - Notas 
 - Favoritos
+
+
+------
+![enter image description here](https://s3-us-west-2.amazonaws.com/git-hub-expoagro/unnamed+(3).webp)
+
+![enter image description here](https://s3-us-west-2.amazonaws.com/git-hub-expoagro/unnamed+(4).webp)
+
+![enter image description here](https://s3-us-west-2.amazonaws.com/git-hub-expoagro/unnamed+(5).webp)
+------
