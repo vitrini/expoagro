@@ -16,9 +16,12 @@ O aplicativo está disponível no Google Play: https://play.google.com/store/app
 
 
 ------
-![enter image description here](https://s3-us-west-2.amazonaws.com/git-hub-expoagro/unnamed+(3).webp)
 
-![enter image description here](https://s3-us-west-2.amazonaws.com/git-hub-expoagro/unnamed+(4).webp)
+![](https://s3-us-west-2.amazonaws.com/git-hub-expoagro/expo1.png)
 
-![enter image description here](https://s3-us-west-2.amazonaws.com/git-hub-expoagro/unnamed+(5).webp)
+![](https://s3-us-west-2.amazonaws.com/git-hub-expoagro/expo2.png)
+
+![](https://s3-us-west-2.amazonaws.com/git-hub-expoagro/expo3.png)
+
+![](https://s3-us-west-2.amazonaws.com/git-hub-expoagro/expo4.png)
 ------
